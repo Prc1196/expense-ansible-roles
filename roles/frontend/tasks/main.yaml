@@ -9,8 +9,8 @@
     state: started
     enabled: yes
 
-- name: include common role
-  import role:
+- name: include from common role
+  include role:
     name: common
     task_from: main
 
