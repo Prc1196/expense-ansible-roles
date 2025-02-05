@@ -10,7 +10,7 @@
     enabled: yes
 
 - name: include from common role
-  include role:
+  include_role:
     name: common
     task_from: main
 
