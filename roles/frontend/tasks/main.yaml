@@ -9,11 +9,11 @@
     state: started
     enabled: yes
 
-
 - name: include from common role
   include_role:
     name: common
     tasks_from: main
+
 
 # - name: delete html directory
 #   ansible.builtin.file:
